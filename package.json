@@ -5,7 +5,8 @@
   "author": "Pande Muliada",
   "license": "MIT",
   "scripts": {
-    "getShots": "node DribbleShots.js"
+    "getShots": "node DribbleShots.js",
+    "getProfile": "node dribbleUserProfile.js"
   },
   "dependencies": {
     "axios": "^0.19.0",

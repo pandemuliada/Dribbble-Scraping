@@ -23,7 +23,6 @@ axios.get('https://dribbble.com/pandemuliada').then(response => {
       }
     })
 
-
     fs.writeFile(
       'data/dribbbleShots.json', 
       JSON.stringify(dribbbleShots, null, 2),
